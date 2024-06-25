@@ -36,8 +36,11 @@ Este projeto é uma aplicação web simples que permite a criptografia e descrip
 
 ## Layout do Projeto
 
-![Layout do Projeto](img/screenshot.png),
-![Layout do Projeto](img/screenshot_1.png)
+### Tela Inicial
+![Tela Inicial](img/screenshot1.png)
+
+### Texto Criptografado
+![Texto Criptografado](img/screenshot2.png)
 
 
 ## Autor
