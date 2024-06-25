@@ -17,18 +17,33 @@ function descriptografar() {
         .replace(/ai/g, 'a')
         .replace(/ober/g, 'o')
         .replace(/ufat/g, 'u');
+    ocultarResultado();
     mostrarResultado(outputText);
 }
 
 function mostrarResultado(texto) {
     const placeholderImage = document.getElementById('placeholderImage');
+    const outputMessage = document.getElementById('outputMessage');
     const outputText = document.getElementById('outputText');
     const copyButton = document.getElementById('copyButton');
 
     placeholderImage.style.display = 'none';
+    outputMessage.style.display = 'block';
     outputText.style.display = 'block';
     outputText.value = texto;
     copyButton.style.display = 'block';
+}
+
+function ocultarResultado() {
+    const placeholderImage = document.getElementById('placeholderImage');
+    const outputMessage = document.getElementById('outputMessage');
+    const outputText = document.getElementById('outputText');
+    const copyButton = document.getElementById('copyButton');
+
+    placeholderImage.style.display = 'block';
+    outputMessage.style.display = 'none';
+    outputText.style.display = 'none';
+    copyButton.style.display = 'none';
 }
 
 function copiarTexto() {
