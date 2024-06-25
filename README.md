@@ -37,10 +37,10 @@ Este projeto é uma aplicação web simples que permite a criptografia e descrip
 ## Layout do Projeto
 
 ### Tela Inicial
-![Tela Inicial](img/screenshot1.png)
+![Tela Inicial](img/Screenshot.png)
 
 ### Texto Criptografado
-![Texto Criptografado](img/screenshot2.png)
+![Texto Criptografado](img/Screenshot_1.png)
 
 
 ## Autor
