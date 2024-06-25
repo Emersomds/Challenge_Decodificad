@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web simples que permite a criptografia e descriptografia de textos. O usuário pode inserir um texto no campo apropriado, clicar nos botões para criptografar ou descriptografar, e copiar o resultado para a área de transferência.
 
+[Visite o site e faça seu teste](https://emersomds.github.io/)
+
 ## Funcionalidades
 
 - **Criptografar Texto:** Substitui caracteres específicos do texto de entrada por sequências de caracteres predefinidas.
