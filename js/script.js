@@ -28,7 +28,7 @@ function mostrarResultado(texto) {
     const copyButton = document.getElementById('copyButton');
 
     placeholderImage.style.display = 'none';
-    outputMessage.style.display = 'block';
+    outputMessage.style.display = 'none';
     outputText.style.display = 'block';
     outputText.value = texto;
     copyButton.style.display = 'block';
@@ -41,7 +41,7 @@ function ocultarResultado() {
     const copyButton = document.getElementById('copyButton');
 
     placeholderImage.style.display = 'block';
-    outputMessage.style.display = 'none';
+    outputMessage.style.display = 'block';
     outputText.style.display = 'none';
     copyButton.style.display = 'none';
 }
