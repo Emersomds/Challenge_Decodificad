@@ -15,16 +15,16 @@ Este projeto é uma aplicação web simples que permite a criptografia e descrip
 - **JavaScript:** Lógica de criptografia, descriptografia e cópia de texto.
 
 ## Estrutura do Projeto
-├── index.html
-├── css
-│ └── style.css
-├── js
-│ └── script.js
-└── img
-├── cryptography.png
-├── Group.png
-├── High quality products 1 1.png
-└── screenshot.png
+├── index.html <br>
+├── css<br>
+│ └── style.css <br>
+├── js <br>
+│ └── script.js <br>
+└── img <br>
+├── cryptography.png <br>
+├── Group.png <br>
+├── High quality products 1 1.png <br>
+└── screenshot.png <br>
 
 ## Como Utilizar
 
