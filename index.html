@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- Seção de entrada de texto -->
         <div class="input-section">
             <img src="img/cryptography.png" alt="Logo" class="logo">
             <h1>Criptografe suas mensagens</h1>
@@ -23,15 +24,16 @@
                 <button class="btn descriptografar" onclick="descriptografar()">Descriptografar</button>
             </div>
         </div>
+        <!-- Seção de saída de texto -->
         <div class="output-section">
             <img id="placeholderImage" src="img/High quality products 1 1.png" alt="Placeholder Image">
             <p id="outputMessage" class="output-message"  ><strong>Mensagem descriptografada</strong><br>
-                Aqui aparecerá o texto descriptografado.
+                Aqui aparecerá o texto descriptografado.<!-- Mensagem inicial de saída (descriptografada) -->
             </p>
             <textarea id="outputText" readonly style="display:none;"></textarea>
             <button id="copyButton" class="btn copy-button" onclick="copiarTexto()" style="display:none;">Copiar</button>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script><!-- Script JavaScript -->
 </body>
 </html>
